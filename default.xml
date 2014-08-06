@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" >
+  <project path="build" name="UneSourcE/android_build" remote="github" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -211,7 +211,7 @@
   <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="kk4.4" />
+  <project path="external/skia" name="UneSourcE/android_external_skia" remote="github" revision="kk4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -249,7 +249,7 @@
   <project path="frameworks/ex" name="SlimRoms/frameworks_ex" remote="github" revision="kk4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4" />
+  <project path="frameworks/native" name="UneSourcE/frameworks_native" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
@@ -333,7 +333,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="kk4.4" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="UneSourcE/packages_apps_Settings" remote="github" revision="kk4.4" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="kk4.4" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -354,7 +354,7 @@
   <project path="packages/providers/CalendarProvider" name="SlimRoms/packages_providers_CalendarProvider" remote="github" revision="kk4.4" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="github" revision="android-4.4" />
-  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="kk4.4" />
+  <project path="packages/providers/MediaProvider" name="UneSourcE/packages_providers_MediaProvider" remote="github" revision="kk4.4" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="kk4.4" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -442,7 +442,7 @@
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/slim" name="UneSourcE/vendor_slim" remote="github" revision="kk4.4" />
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
